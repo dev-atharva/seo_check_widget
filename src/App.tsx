@@ -12,7 +12,7 @@ function App() {
       <Seo_modal />
       {summery.summaryData.summary_data_retrieved === "loading" ? (
         <div className="h-screen flex items-center justify-center">
-          <img src="/src/assets/loader.gif" alt="Loading animation" />
+          <img src="https://res.cloudinary.com/dcyo1ji8f/image/upload/v1694866402/airbnbclone/loader_gsaaeo.gif" alt="Loading animation" />
         </div>
       ) : (
         <></>
